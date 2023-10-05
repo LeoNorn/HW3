@@ -12,6 +12,7 @@ __pypackages__/
 # Среды
 ../venv/.env
 .venv
+.env
 env/
 venv/
 ENV/
