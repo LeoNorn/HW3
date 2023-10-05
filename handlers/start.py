@@ -33,4 +33,4 @@ async def about(callback: types.CallbackQuery):
 async def about(callback: types.CallbackQuery):
     await callback.answer()
 
-    await callback.message.answer("911")
+    await callback.message.answer("112")
