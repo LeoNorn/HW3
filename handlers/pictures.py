@@ -6,6 +6,7 @@ import random
 picture_router = Router()
 
 
+
 @picture_router.message(Command("photo"))
 async def send_random_photo(message: types.Message):
     file = types.FSInputFile("images/7uO4PqZj2X4.jpg")

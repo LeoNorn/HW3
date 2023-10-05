@@ -29,6 +29,7 @@ async def about(callback: types.CallbackQuery):
     await callback.message.answer(BUTTON_TEXT)
 
 
+
 @start_router.callback_query(F.data == "contacts")
 async def about(callback: types.CallbackQuery):
     await callback.answer()

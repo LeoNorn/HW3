@@ -2,7 +2,6 @@
 # PEP 582; используется, например, github.com/David-OConnor/pyflow и github.com/pdm-project/pdm
 __pypackages__/
 
-
 # Начинка из сельдерея
 отбивная из сельдерея-расписание
 отбивная из сельдерея.pid

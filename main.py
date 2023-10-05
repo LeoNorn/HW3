@@ -8,6 +8,7 @@ from bot import bot, dp
 from handlers.question import questions_router
 
 
+
 async def main():
     dp.include_routers(start_router, info_router, picture_router, shop_router, questions_router)
     await dp.start_polling(bot)

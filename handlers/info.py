@@ -11,3 +11,4 @@ async def info(message: types.Message):
         f"Ваш id: {message.from_user.id}, Ваш first_name: {message.from_user.first_name}, "
         f"Ваш username: {message.from_user.username}",
     )
+

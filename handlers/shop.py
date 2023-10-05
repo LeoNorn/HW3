@@ -6,6 +6,7 @@ from aiogram.types.reply_keyboard_markup import ReplyKeyboardMarkup
 
 shop_router = Router()
 
+
 @shop_router.message(Command("shop"))
 async def shop(message: types.Message):
     kb = ReplyKeyboardMarkup(
